@@ -64,6 +64,7 @@
           class="menu-toggle js-open-menu"
           aria-expanded="true"
           aria-controls="mobile-menu"
+          js-open-menu
         >
           <svg width="32" height="22" stroke="currentColor">
             <use href="./images/icons.svg#icon-mobilemenu"></use>
@@ -374,5 +375,77 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+
+    <script src="./js/mobilemenu.js"></script>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu" js-close-menu>
+        <svg fill="currentColor" width="8" height="8">
+          <use href="./images/icons.svg#icon-closebutton"></use>
+        </svg>
+      </button>
+      <div class="link-toggle">
+        <nav class="mob-menu-nav">
+          <ul class="mobile-menu list">
+            <li>
+              <a href="./index.html" class="link togle-menu-link current"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link togle-menu-link"
+                >Portfolio</a
+              >
+            </li>
+            <li><a href="" class="link togle-menu-link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="adress-soc-togle">
+        <ul class="menu-address-list list">
+          <li>
+            <a href="tel:+110001111111" class="tel-link link"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-link link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="list menu-soc-list">
+          <li class="soc-item">
+            <a href="" class="menu-soc-link">
+              <svg class="menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a href="" class="menu-soc-link">
+              <svg class="menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a href="" class="menu-soc-link">
+              <svg class="menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc-item">
+            <a href="" class="menu-soc-link">
+              <svg class="menu-soc-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
